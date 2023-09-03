@@ -27,6 +27,14 @@ body {
 .bg-gradient-dark {
   background: radial-gradient(100.04% 100% at 50% 0%, #26314e 0%, #252b3d 100%);
 }
+.bg-gradient-table {
+  background: radial-gradient(
+    100.04% 100% at 50% 0%,
+    #26314e 0%,
+    #131820 0.01%,
+    #0f151e 100%
+  );
+}
 
 .hero-light1 {
   width: 780px;
