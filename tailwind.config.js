@@ -11,6 +11,10 @@ export default {
         sans: 'Inter',
         'sans-serif': 'Inter',
       },
+      colors: {
+        dark: '#08090B',
+        primary: '#2FBDFC',
+      },
     },
   },
   plugins: [],

@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  background: #08090b;
+  color: #d5eaff;
+}
+
+.separator {
+  @apply h-6 border-r border-[#252C41];
+}
+
+.bg-gradient-header {
+  background: linear-gradient(
+      90deg,
+      rgba(64, 193, 251, 0) 8.36%,
+      #40c1fb 50.39%,
+      rgba(64, 193, 251, 0) 91.67%
+    ),
+    #252c41;
+}
+.bg-gradient-primary {
+  background: radial-gradient(100.04% 100% at 50% 0%, #66cbf9 0%, #0fb5ff 100%);
+}
+.bg-gradient-dark {
+  background: radial-gradient(100.04% 100% at 50% 0%, #26314e 0%, #252b3d 100%);
+}
