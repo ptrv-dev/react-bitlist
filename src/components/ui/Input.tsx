@@ -9,10 +9,10 @@ interface Props extends HTMLProps<HTMLInputElement> {
 const Input: FC<Props> = ({ onChange, icon, ...props }) => {
   return (
     <div className="bg-gradient-dark flex rounded-md overflow-hidden text-lg w-[400px]">
-      {icon && <div className="flex items-center ml-4 mr-2">{icon}</div>}
+      {icon && <div className="flex items-center ml-4 mr-[10px]">{icon}</div>}
       <input
         className={cn(
-          'leading-none bg-transparent outline-none py-[10px] pr-6 w-full font-medium placeholder:font-medium',
+          'leading-none bg-transparent outline-none py-[10px] pr-6 w-full font-medium placeholder:font-medium placeholder:text-[#6D799C]',
           { 'px-6': !icon }
         )}
         onChange={onChange}
