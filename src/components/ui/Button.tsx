@@ -15,7 +15,7 @@ const Button: FC<Props> = ({
   return (
     <button
       className={cn(
-        'flex outline-none text-lg font-medium py-[10px] px-6 rounded-md',
+        'leading-none flex outline-none text-lg font-medium py-[10px] px-6 rounded-md',
         { 'bg-gradient-primary text-dark': variant === 'primary' },
         { 'bg-gradient-dark': variant === 'secondary' },
         className

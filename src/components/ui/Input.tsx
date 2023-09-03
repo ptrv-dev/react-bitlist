@@ -12,7 +12,7 @@ const Input: FC<Props> = ({ onChange, icon, ...props }) => {
       {icon && <div className="flex items-center ml-4 mr-2">{icon}</div>}
       <input
         className={cn(
-          'bg-transparent outline-none py-[10px] pr-6 w-full font-medium placeholder:font-medium',
+          'leading-none bg-transparent outline-none py-[10px] pr-6 w-full font-medium placeholder:font-medium',
           { 'px-6': !icon }
         )}
         onChange={onChange}
