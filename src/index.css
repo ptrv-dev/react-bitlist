@@ -27,3 +27,19 @@ body {
 .bg-gradient-dark {
   background: radial-gradient(100.04% 100% at 50% 0%, #26314e 0%, #252b3d 100%);
 }
+
+.hero-light1 {
+  width: 780px;
+  height: 180px;
+  border-radius: 780px;
+  background: rgba(30, 120, 255, 0.24);
+  filter: blur(200px);
+}
+
+.hero-light2 {
+  width: 780px;
+  height: 180px;
+  border-radius: 780px;
+  background: rgba(30, 160, 255, 0.32);
+  filter: blur(200px);
+}
