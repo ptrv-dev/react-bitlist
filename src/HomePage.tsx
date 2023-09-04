@@ -14,11 +14,11 @@ const HomePage: FC = () => {
     <>
       <Header />
       <HeroSection />
-      <AssetsSection />
-      <PartnersSection />
-      <AdvantagesSection />
-      <SignInSection />
-      <Footer />
+      {/* <AssetsSection /> */}
+      {/* <PartnersSection /> */}
+      {/* <AdvantagesSection /> */}
+      {/* <SignInSection /> */}
+      {/* <Footer /> */}
     </>
   );
 };

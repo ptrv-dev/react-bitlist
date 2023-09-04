@@ -6,9 +6,14 @@ interface Props extends HTMLProps<HTMLInputElement> {
   icon?: ReactNode;
 }
 
-const Input: FC<Props> = ({ onChange, icon, ...props }) => {
+const Input: FC<Props> = ({ onChange, icon, className, ...props }) => {
   return (
-    <div className="bg-gradient-dark flex rounded-md overflow-hidden text-lg w-[400px]">
+    <div
+      className={cn(
+        'bg-gradient-dark flex rounded-md overflow-hidden text-lg w-[400px]',
+        className
+      )}
+    >
       {icon && <div className="flex items-center ml-4 mr-[10px]">{icon}</div>}
       <input
         className={cn(

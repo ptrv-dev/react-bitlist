@@ -6,6 +6,7 @@ import PartnersSection from './PartnersSection';
 import AdvantagesSection from './AdvantagesSection';
 import SignInSection from './SignInSection';
 import Footer from './Footer';
+import BurgerButton from './BurgerButton';
 
 export {
   Logo,
@@ -16,4 +17,5 @@ export {
   AdvantagesSection,
   SignInSection,
   Footer,
+  BurgerButton,
 };
