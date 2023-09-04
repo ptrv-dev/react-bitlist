@@ -10,7 +10,7 @@ const Input: FC<Props> = ({ onChange, icon, className, ...props }) => {
   return (
     <div
       className={cn(
-        'bg-gradient-dark flex rounded-md overflow-hidden sm:text-lg w-[400px]',
+        'bg-gradient-dark flex rounded-md overflow-hidden md:text-lg w-[400px]',
         className
       )}
     >

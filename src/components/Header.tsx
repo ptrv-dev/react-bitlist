@@ -61,8 +61,8 @@ const Header: FC = () => {
       </div>
       <div
         className={cn(
-          'fixed z-10 right-0 top-0 w-full max-w-sm h-screen mt-[98px] bg-dark bg-opacity-90 p-8 overflow-y-auto 2xl:hidden transition-transform duration-500 translate-x-full',
-          { 'translate-x-0 ': active }
+          'fixed z-10 right-0 top-0 w-full max-w-sm h-screen mt-[91px] lg:mt-[97px] xl:mt-[104px] bg-dark bg-opacity-90 p-8 overflow-y-auto 2xl:hidden transition-transform duration-500',
+          { 'translate-x-full ': !active }
         )}
       >
         <Input
