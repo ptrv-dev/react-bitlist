@@ -16,6 +16,9 @@ export default {
         primary: '#2FBDFC',
         secondary: '#252C41',
       },
+      screens: {
+        xs: '500px',
+      },
     },
   },
   plugins: [],

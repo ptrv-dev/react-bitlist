@@ -1,12 +1,30 @@
 import { FC } from 'react';
+import cn from 'classnames';
+
 import { Button, Input } from './ui';
 import { MailIcon } from './icons';
 
-const Badge = () => {
+const Badge: FC<{ className?: string }> = ({ className }) => {
   return (
-    <div className="mb-6 py-2 px-3 rounded-md bg-gradient-dark flex w-fit gap-[10px] items-center">
-      <img src="/assets/img/icon.svg" alt="" width={16} height={16} />
+    <div
+      className={cn(
+        'mb-6 py-2 px-3 rounded-md flex w-fit gap-[10px] items-center',
+        className
+      )}
+      style={{
+        background:
+          'radial-gradient(107.69% 100% at 50% 0%, #131A2E 0%, #111624 100%)',
+      }}
+    >
+      <img
+        src="/assets/img/icon.svg"
+        alt=""
+        width={16}
+        height={16}
+        className="pointer-events-none select-none"
+      />
       <svg
+        className="w-full"
         width="350"
         height="14"
         viewBox="0 0 350 14"
@@ -128,37 +146,45 @@ const Badge = () => {
 
 const HeroSection: FC = () => {
   return (
-    <section className="h-96 border-b border-secondary">
-      <div className="relative h-full overflow-hidden">
+    <section className="lg:h-96 border-b border-secondary">
+      <div className="py-20 lg:py-0 relative h-full overflow-hidden">
         <div className="hero-light1 absolute -bottom-1/2 left-0"></div>
-        <div className="container h-full flex items-center justify-between">
-          <div>
-            <Badge />
-            <h1 className="max-w-[680px] text-7xl tracking-tight">
+        <div className="container h-full flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div className="flex-shrink-0 lg:w-1/2 xl:max-w-[680px] relative z-10">
+            <Badge className="mx-auto lg:mx-0" />
+            <h1 className="text-center lg:text-left text-4xl md:text-5xl xl:text-7xl tracking-tight">
               Buy, trade and store cryptocurrencies
             </h1>
+            <div className="flex w-full xs:w-max mx-auto max-w-full my-8 lg:hidden">
+              <Input
+                className="w-full"
+                placeholder="example@gmail.com"
+                icon={<MailIcon width={20} height={20} />}
+              />
+              <Button className="-ml-2 flex-shrink-0">Sign in</Button>
+            </div>
           </div>
-          <div className="relative">
+          <div className="relative flex-shrink">
             <div className="hero-light2 absolute -left-[140p] -top-[72px]"></div>
             <img
-              className="absolute -bottom-[64px] -right-[280px] pointer-events-none select-none"
+              className="absolute -bottom-[64px] -right-[50%] pointer-events-none select-none"
               src="/assets/img/hero-bg-vector.svg"
-              alt=""
+              alt="Hero Section Background Image"
             />
             <img
-              className="absolute -top-[72px] -left-[208px] pointer-events-none select-none"
+              className="absolute -top-[72px] -left-[30%] pointer-events-none select-none"
               src="/assets/img/hero-bg-vector.svg"
-              alt=""
+              alt="Hero Section Background Image"
             />
             <img
               src="/assets/img/hero-image.png"
-              alt=""
-              className="h-[283px] relative z-10 pointer-events-none select-none"
+              alt="Hero Section Illustration"
+              className="max-w-[610px] w-full relative z-10 pointer-events-none select-none block"
             />
           </div>
         </div>
       </div>
-      <div className="container -translate-y-1/2">
+      <div className="hidden lg:block container -translate-y-1/2">
         <div className="flex">
           <Input
             placeholder="example@gmail.com"
