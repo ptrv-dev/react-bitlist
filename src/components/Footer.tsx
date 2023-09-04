@@ -5,12 +5,12 @@ import { NAVIGATION_ITEMS } from './Header';
 const Footer: FC = () => {
   return (
     <footer className="pt-16 pb-8">
-      <div className="container pb-16 flex justify-between">
+      <div className="container pb-16 flex flex-col gap-8 sm:flex-row justify-between">
         <div>
-          <a className="inline-block mb-12" href="/">
+          <a className="inline-block mb-8 lg:mb-12" href="/">
             <img src="/assets/img/logo-dark.svg" alt="" />
           </a>
-          <div className="flex gap-4 mb-16">
+          <div className="flex gap-4 mb-8 lg:mb-16">
             <a className="text-[#3C4867]" href="https://t.me/ptrv_dev">
               <svg
                 width="30"
@@ -76,8 +76,8 @@ const Footer: FC = () => {
             <Button>Log in</Button>
           </div>
         </div>
-        <div className="flex gap-16">
-          <nav className="flex flex-col gap-7">
+        <div className="flex gap-16 justify-between sm:justify-normal">
+          <nav className="flex flex-col gap-4 md:gap-7">
             {NAVIGATION_ITEMS.map(({ href, title }, idx) => (
               <a
                 key={idx}
@@ -88,7 +88,7 @@ const Footer: FC = () => {
               </a>
             ))}
           </nav>
-          <nav className="flex flex-col gap-7">
+          <nav className="flex flex-col gap-4 md:gap-7">
             <a
               className="transition-colors text-[#464E62] hover:text-primary"
               href="#!"
@@ -105,7 +105,7 @@ const Footer: FC = () => {
         </div>
       </div>
       <div>
-        <p className="text-[#27314A] text-lg font-medium text-center">
+        <p className="text-[#27314A] md:text-lg font-medium text-center">
           Bitlist © All Rights Reserved
         </p>
       </div>
