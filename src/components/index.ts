@@ -3,5 +3,13 @@ import Header from './Header';
 import HeroSection from './HeroSection';
 import AssetsSection from './AssetsSection';
 import PartnersSection from './PartnersSection';
+import AdvantagesSection from './AdvantagesSection';
 
-export { Logo, Header, HeroSection, AssetsSection, PartnersSection };
+export {
+  Logo,
+  Header,
+  HeroSection,
+  AssetsSection,
+  PartnersSection,
+  AdvantagesSection,
+};

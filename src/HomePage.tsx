@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import {
+  AdvantagesSection,
   AssetsSection,
   Header,
   HeroSection,
@@ -13,6 +14,7 @@ const HomePage: FC = () => {
       <HeroSection />
       <AssetsSection />
       <PartnersSection />
+      <AdvantagesSection />
     </>
   );
 };
