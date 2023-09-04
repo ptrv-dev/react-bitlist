@@ -8,10 +8,13 @@ const Footer: FC = () => {
       <div className="container pb-16 flex flex-col gap-8 sm:flex-row justify-between">
         <div>
           <a className="inline-block mb-8 lg:mb-12" href="/">
-            <img src="/assets/img/logo-dark.svg" alt="" />
+            <img src="/assets/img/logo-dark.svg" alt="Bitlist" />
           </a>
           <div className="flex gap-4 mb-8 lg:mb-16">
-            <a className="text-[#3C4867]" href="https://t.me/ptrv_dev">
+            <a
+              className="text-[#3C4867] hover:text-primary"
+              href="https://t.me/ptrv_dev"
+            >
               <svg
                 width="30"
                 height="30"
@@ -25,7 +28,10 @@ const Footer: FC = () => {
                 />
               </svg>
             </a>
-            <a className="text-[#3C4867]" href="https://t.me/ptrv_dev">
+            <a
+              className="text-[#3C4867] hover:text-primary"
+              href="https://t.me/ptrv_dev"
+            >
               <svg
                 width="30"
                 height="29"
@@ -39,7 +45,10 @@ const Footer: FC = () => {
                 />
               </svg>
             </a>
-            <a className="text-[#3C4867]" href="https://t.me/ptrv_dev">
+            <a
+              className="text-[#3C4867] hover:text-primary"
+              href="https://t.me/ptrv_dev"
+            >
               <svg
                 width="30"
                 height="30"

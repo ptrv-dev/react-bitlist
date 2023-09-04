@@ -88,3 +88,6 @@ body {
   width: 688px;
   height: 240px;
 }
+img {
+  @apply pointer-events-none select-none;
+}

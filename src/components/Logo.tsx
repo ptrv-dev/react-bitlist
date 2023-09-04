@@ -8,7 +8,7 @@ interface Props {
 const Logo: FC<Props> = ({ className }) => {
   return (
     <a href="/" className={cn('', className)}>
-      <img src="/assets/img/logo.svg" alt="" height="35px" />
+      <img src="/assets/img/logo.svg" alt="Bitlist" height="35px" />
     </a>
   );
 };

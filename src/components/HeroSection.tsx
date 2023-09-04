@@ -18,7 +18,7 @@ const Badge: FC<{ className?: string }> = ({ className }) => {
     >
       <img
         src="/assets/img/icon.svg"
-        alt=""
+        alt="Bitlist Icon"
         width={16}
         height={16}
         className="pointer-events-none select-none"

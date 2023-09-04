@@ -17,7 +17,7 @@ const SignInSection: FC = () => {
           <path
             d="M993.757 1088.27L778.285 1237.33L23.9999 173.06L239.472 24L993.757 1088.27Z"
             fill="url(#paint0_radial_1001_187)"
-            fill-opacity="0.72"
+            fillOpacity="0.72"
           />
         </g>
         <defs>
@@ -28,9 +28,9 @@ const SignInSection: FC = () => {
             width="1017.76"
             height="1261.33"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -50,8 +50,8 @@ const SignInSection: FC = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(717.329 425.827) rotate(140.161) scale(397.932 397.062)"
           >
-            <stop stop-color="#00BAF4" />
-            <stop offset="1" stop-color="#12131A" stop-opacity="0" />
+            <stop stopColor="#00BAF4" />
+            <stop offset="1" stopColor="#12131A" stopOpacity="0" />
           </radialGradient>
         </defs>
       </svg>

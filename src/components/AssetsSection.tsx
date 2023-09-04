@@ -81,7 +81,7 @@ const AssetsSection: FC = () => {
                         <div className="flex items-center">
                           <img
                             src={token.icon}
-                            alt=""
+                            alt={token.name}
                             width={36}
                             height={36}
                             className="object-cover mr-3 md:mr-5"
@@ -135,7 +135,7 @@ const AssetsSection: FC = () => {
         </div>
         <a
           href="#"
-          className="text-lg bg-gradient-dark py-[10px] px-6 block w-full text-center rounded-lg leading-none"
+          className="text-lg bg-gradient-dark py-[10px] px-6 block w-full text-center rounded-lg leading-none transition-opacity hover:opacity-80"
         >
           All assets
         </a>

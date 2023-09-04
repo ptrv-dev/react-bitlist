@@ -16,12 +16,12 @@ const PartnersSection: FC = () => {
         </div>
         <div className="md:w-1/2 lg:w-auto xl:flex-shrink 2xl:flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 gap-16 md:gap-10 lg:gap-y-20 lg:gap-x-[100px] relative">
           <div className="partners-light absolute" />
-          <img src="/assets/img/binance.svg" alt="" />
-          <img src="/assets/img/bybit.svg" alt="" />
-          <img src="/assets/img/bitfinex.svg" alt="" />
-          <img src="/assets/img/cryptocom.svg" alt="" />
-          <img src="/assets/img/kraken.svg" alt="" />
-          <img src="/assets/img/coinbase.svg" alt="" />
+          <img src="/assets/img/binance.svg" alt="binance" />
+          <img src="/assets/img/bybit.svg" alt="bybit" />
+          <img src="/assets/img/bitfinex.svg" alt="bitfinex" />
+          <img src="/assets/img/cryptocom.svg" alt="crypto.com" />
+          <img src="/assets/img/kraken.svg" alt="kraken" />
+          <img src="/assets/img/coinbase.svg" alt="coinbase" />
         </div>
       </div>
     </section>
