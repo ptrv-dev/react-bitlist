@@ -12,7 +12,7 @@ body {
   @apply h-6 border-r border-[#252C41];
 }
 
-.bg-gradient-header {
+.bg-gradient-separator {
   background: linear-gradient(
       90deg,
       rgba(64, 193, 251, 0) 8.36%,

@@ -16,7 +16,7 @@ const Header: FC = () => {
   const [query, setQuery] = useState('');
   return (
     <div className="py-7 bg-dark relative">
-      <div className="absolute left-0 right-0 h-px bottom-0 bg-gradient-header" />
+      <div className="absolute left-0 right-0 h-px bottom-0 bg-gradient-separator" />
       <div className="container flex items-center">
         <Logo className="mr-8" />
         <div className="separator mr-10" />
