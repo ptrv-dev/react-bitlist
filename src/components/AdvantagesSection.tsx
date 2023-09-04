@@ -4,8 +4,8 @@ const AdvantagesSection: FC = () => {
   return (
     <section className="py-20 relative">
       <div className="bg-gradient-separator h-px absolute left-0 right-0 top-0" />
-      <div className="container grid grid-cols-[300px_300px_300px] gap-y-20 gap-x-[100px] justify-center">
-        <div className="flex flex-col items-start">
+      <div className="container grid grid-cols-[300px] md:grid-cols-[300px_300px] xl:grid-cols-[300px_300px_300px] gap-y-20 gap-x-[100px] justify-center">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="32"
@@ -33,7 +33,7 @@ const AdvantagesSection: FC = () => {
             protect a portion of user funds.
           </p>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="32"
@@ -68,7 +68,7 @@ const AdvantagesSection: FC = () => {
             addresses that can access your account.
           </p>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="32"
@@ -96,7 +96,7 @@ const AdvantagesSection: FC = () => {
             personal data.
           </p>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="28"
@@ -123,7 +123,7 @@ const AdvantagesSection: FC = () => {
             24/7 real-time support is always ready to help you.
           </p>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="28"
@@ -150,7 +150,7 @@ const AdvantagesSection: FC = () => {
             Transfer funds to and from your accounts quickly and easily.
           </p>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col md:items-start text-center md:text-left items-center">
           <span className="mb-6 py-2 px-[14px] rounded border border-primary bg-partners-icon">
             <svg
               width="28"
