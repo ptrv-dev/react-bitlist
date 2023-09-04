@@ -4,6 +4,7 @@ import HeroSection from './HeroSection';
 import AssetsSection from './AssetsSection';
 import PartnersSection from './PartnersSection';
 import AdvantagesSection from './AdvantagesSection';
+import SignInSection from './SignInSection';
 
 export {
   Logo,
@@ -12,4 +13,5 @@ export {
   AssetsSection,
   PartnersSection,
   AdvantagesSection,
+  SignInSection,
 };

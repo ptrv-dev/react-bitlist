@@ -5,6 +5,7 @@ import {
   Header,
   HeroSection,
   PartnersSection,
+  SignInSection,
 } from './components';
 
 const HomePage: FC = () => {
@@ -15,6 +16,7 @@ const HomePage: FC = () => {
       <AssetsSection />
       <PartnersSection />
       <AdvantagesSection />
+      <SignInSection />
     </>
   );
 };
