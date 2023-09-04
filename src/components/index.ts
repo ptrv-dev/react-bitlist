@@ -2,5 +2,6 @@ import Logo from './Logo';
 import Header from './Header';
 import HeroSection from './HeroSection';
 import AssetsSection from './AssetsSection';
+import PartnersSection from './PartnersSection';
 
-export { Logo, Header, HeroSection, AssetsSection };
+export { Logo, Header, HeroSection, AssetsSection, PartnersSection };

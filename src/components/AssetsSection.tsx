@@ -24,7 +24,7 @@ const AssetsSection: FC = () => {
   }, []);
 
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px] border-b border-secondary">
       <div className="container">
         <div className="border border-white border-opacity-10 rounded-2xl overflow-hidden mb-4">
           <table className="w-full bg-gradient-table">

@@ -1,5 +1,10 @@
 import { FC } from 'react';
-import { AssetsSection, Header, HeroSection } from './components';
+import {
+  AssetsSection,
+  Header,
+  HeroSection,
+  PartnersSection,
+} from './components';
 
 const HomePage: FC = () => {
   return (
@@ -7,6 +12,7 @@ const HomePage: FC = () => {
       <Header />
       <HeroSection />
       <AssetsSection />
+      <PartnersSection />
     </>
   );
 };

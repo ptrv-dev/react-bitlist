@@ -51,3 +51,18 @@ body {
   background: rgba(30, 160, 255, 0.32);
   filter: blur(200px);
 }
+
+.partners-light {
+  pointer-events: none;
+  background: linear-gradient(
+    179deg,
+    rgba(0, 230, 244, 0.31) -1.51%,
+    rgba(0, 230, 244, 0) 80.46%
+  );
+  filter: blur(53.5px);
+  width: 277px;
+  height: 127px;
+  transform: translate(-50%, -50%) rotate(-52deg);
+  left: 50%;
+  top: 50%;
+}
