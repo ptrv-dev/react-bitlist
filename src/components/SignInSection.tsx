@@ -58,15 +58,16 @@ const SignInSection: FC = () => {
       <div className="sign-in-light1 absolute left-[20%] -top-[168px]" />
       <div className="sign-in-light2 absolute right-[20%] -top-[24px]" />
       <div className="container flex flex-col items-center relative z-10">
-        <h2 className="text-5xl font-medium leading-snug max-w-[680px] mb-14 text-center">
+        <h2 className="text-center font-medium text-3xl md:text-4xl xl:text-5xl mb-4 leading-snug max-w-2xl">
           Register your account now and start to trade
         </h2>
-        <div className="flex">
+        <div className="flex w-full max-w-md">
           <Input
+            className="w-full"
             placeholder="example@gmail.com"
             icon={<MailIcon width={20} height={20} />}
           />
-          <Button className="-ml-2">Sign in</Button>
+          <Button className="-ml-2 flex-shrink-0">Sign in</Button>
         </div>
       </div>
     </section>
