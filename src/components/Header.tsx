@@ -4,7 +4,7 @@ import Input from './ui/Input';
 import { SearchIcon } from './icons';
 import { Button } from './ui';
 
-const NAVIGATION_ITEMS = [
+export const NAVIGATION_ITEMS = [
   { href: '#!', title: 'Trade' },
   { href: '#!', title: 'P2P' },
   { href: '#!', title: 'Partners' },

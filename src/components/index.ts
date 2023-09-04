@@ -5,6 +5,7 @@ import AssetsSection from './AssetsSection';
 import PartnersSection from './PartnersSection';
 import AdvantagesSection from './AdvantagesSection';
 import SignInSection from './SignInSection';
+import Footer from './Footer';
 
 export {
   Logo,
@@ -14,4 +15,5 @@ export {
   PartnersSection,
   AdvantagesSection,
   SignInSection,
+  Footer,
 };

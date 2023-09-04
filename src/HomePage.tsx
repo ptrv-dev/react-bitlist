@@ -2,6 +2,7 @@ import { FC } from 'react';
 import {
   AdvantagesSection,
   AssetsSection,
+  Footer,
   Header,
   HeroSection,
   PartnersSection,
@@ -17,6 +18,7 @@ const HomePage: FC = () => {
       <PartnersSection />
       <AdvantagesSection />
       <SignInSection />
+      <Footer />
     </>
   );
 };
