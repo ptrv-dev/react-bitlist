@@ -15,7 +15,7 @@ const HomePage: FC = () => {
       <Header />
       <HeroSection />
       <AssetsSection />
-      {/* <PartnersSection /> */}
+      <PartnersSection />
       {/* <AdvantagesSection /> */}
       {/* <SignInSection /> */}
       {/* <Footer /> */}
